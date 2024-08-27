@@ -1,12 +1,12 @@
 # Pod Manifest File For NGINX
 
-apiVersion:  v1
-kind:  Pod
+apiVersion: v1
+kind: Pod
 metadata:
-  name:  nginx-pod
+  name: nginx-pod
 spec:
   containers:
   -  name: c1
-  image:  nginx
+  image: nginx
   ports:
-  -  containerPort:  80
+  -  containerPort: 80
